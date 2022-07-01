@@ -1,0 +1,92 @@
+@import url("../fonts/Fira/Fira.css");
+
+@font-face {
+  font-family: "droid_sansregular";
+  src: url("/assets/fonts/DroidSans-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  text-align: center;
+  margin: 20% 0 0;
+  background-color: #161515;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.point1,
+.point2,
+.point3 {
+  background: #fff;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.point1 {
+  animation: jump 1.6s -0.32s linear infinite;
+  background: rgba(85, 90, 84, 0.753);
+}
+
+.point2 {
+  animation: jump 1.6s -0.16s linear infinite;
+  background: rgba(85, 90, 84, 0.753);
+}
+
+.point3 {
+  animation: jump 1.6s linear infinite;
+  background: rgba(85, 90, 84, 0.753);
+}
+
+@keyframes jump {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 35px;
+  margin-top: 1%;
+  color: #d24743;
+  padding: 0;
+}
+
+h2 {
+  font-family: "droid_sansregular", sans-serif;
+  font-size: 18px;
+  color: rgba(116, 124, 113, 0.781);
+}
+
+a {
+  font-family: "droid_sansregular", sans-serif;
+  font-size: 15px;
+  color: rgba(116, 124, 113, 0.781);
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+}
+
+a:hover {
+  color: #d24743;
+  text-decoration: underline;
+}

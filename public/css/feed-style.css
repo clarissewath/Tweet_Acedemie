@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__left {
+  display: none;
+}
+
+body {
+  background-color: #151615;
+  color: #eae8d4;
+}
+body .avatar {
+  border-radius: 50%;
+  width: 100%;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #d24743;
+  border-radius: 10px;
+}
+
+.container {
+  min-width: 100%;
+}
+.container nav {
+  font-size: 1.2em;
+  font-weight: 650;
+  float: right;
+  z-index: 1;
+}
+.container nav .fa-twitter {
+  font-size: 30px;
+  color: #d24743;
+  display: block;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.container nav .nav-item {
+  padding: 3px;
+  font-weight: lighter;
+}
+.container nav .nav-link {
+  color: #fffde7;
+  text-decoration: none;
+}
+.container nav .nav-link i {
+  padding-right: 20px;
+}
+.container nav a:hover {
+  color: #d24743;
+  background-color: #1b1b1b;
+}
+.container nav .tweeterBtn {
+  width: 100%;
+  margin: 20px 10px 10px;
+  padding: 13px;
+  border-radius: 23px;
+  background-color: #d24743;
+  border: none;
+  font-weight: bold;
+}
+.container nav .mobile-post {
+  display: none;
+  color: #d24743;
+  padding-left: 16px;
+}
+.container nav .nav-profile {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container nav .nav-profile:hover {
+  background-color: #1b1b1b;
+}
+.container nav .nav-profile .nav-ppic {
+  width: 9%;
+  padding: 1%;
+  margin: 1%;
+}
+.container nav .nav-username {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+.container nav .twitter-account {
+  font-size: 0.7em;
+  color: #808080;
+}
+.container main {
+  border: 1px solid #808080;
+}
+.container main .first-part {
+  border-bottom: 1px solid #808080;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 7px 2px 7px;
+}
+.container main .first-part .home {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white;
+}
+.container main .first-part .fa-star {
+  color: #d24743;
+}
+.container main .whats-happening .post-blocks {
+  display: flex;
+  flex-direction: row;
+}
+.container main .whats-happening .post-blocks textarea {
+  background-color: #151615;
+  color: #fff;
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+}
+.container main .whats-happening .post-blocks .post-profile {
+  width: 9%;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 100%;
+}
+.container main .whats-happening .post-blocks .post-form {
+  width: 68%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.container main .whats-happening .post-icons {
+  display: flex;
+  flex-direction: row;
+}
+.container main .whats-happening .post-icons .first-post-icons {
+  width: 50%;
+  margin-left: 10%;
+}
+.container main .whats-happening .post-icons .second-post-icons {
+  width: 50%;
+  margin-left: 15%;
+}
+.container
+  main
+  .whats-happening
+  .post-icons
+  .second-post-icons
+  .fa-plus-circle {
+  border-left: 1px solid #808080;
+}
+.container main .whats-happening .post-icons .second-post-icons button {
+  border-radius: 12px;
+  width: 45%;
+}
+.container main .whats-happening .post-icons i {
+  display: inline-block;
+  padding: 10px;
+  color: #d24743;
+}
+.container div[id="rightBlock"] .search {
+  margin: 0 auto;
+}
+.container div[id="rightBlock"] .search form {
+  margin-top: 3px;
+}
+.container div[id="rightBlock"] .search form input {
+  width: 100%;
+  border-radius: 23px;
+  padding: 5px 5px 5px 50px;
+  color: #fff;
+  background-color: #1a1b1b;
+  border: 1px solid #494848;
+  background-image: url(../images/search22.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+}
+.container div[id="rightBlock"] .other-profiles {
+  width: 100%;
+  padding: 8px 0;
+  border: 1px solid #494848;
+  border-radius: 23px;
+  background-color: #151618;
+}
+.container div[id="rightBlock"] .other-profiles .heading {
+  width: 100%;
+  padding-left: 8px;
+  color: #fffde7;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 8px 7px;
+  border: 1px solid #494848;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 .twitter-account {
+  font-size: 0.8em;
+  color: #808080;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 .profile-name {
+  width: 55%;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 .profile-img {
+  width: 16%;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 .follow-btn {
+  width: 28%;
+}
+.container div[id="rightBlock"] .other-profiles .profile-1 .follow-btn button {
+  border: 1px solid #d24743;
+  color: #d24743;
+  border-radius: 5px;
+  padding: 2px 7px;
+  background-color: #151615;
+}
+.container
+  div[id="rightBlock"]
+  .other-profiles
+  .profile-1
+  .follow-btn
+  button:hover {
+  background-color: #2c2b2b;
+}
+.container div[id="rightBlock"] div[id="policy"] {
+  text-align: center;
+  font-size: 0.86em;
+  color: #808080;
+}
+.container #tweets {
+  border: 1px solid #808080;
+  min-height: 500px;
+}
+.container #tweets .tweet-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 8px;
+  border-bottom: 1px solid #808080;
+  border-top: 1px solid #808080;
+}
+.container #tweets .tweet-1 .tweet-img {
+  width: 7%;
+}
+.container #tweets .tweet-1 .tweet-img img {
+  border-radius: 50%;
+  width: 100%;
+}
+.container #tweets .tweet-1 .tweet-txt {
+  width: 83%;
+  padding-left: 5px;
+}
+.container #tweets .tweet-1 .tweet-txt .twitter-account {
+  font-size: 0.95em;
+  color: #808080;
+}
+.container #tweets .tweet-1 .tweet-txt .date {
+  font-size: 0.85em;
+}
+.container #tweets .tweet-1 .tweet-txt .tweet-icons {
+  padding-top: 7px;
+}
+.container #tweets .tweet-1 .tweet-txt .tweet-icons i {
+  width: 23%;
+  float: left;
+}
+
+@media screen and (max-width: 991px) {
+  .container nav .menu-text {
+    display: none;
+  }
+  .container nav .mobile-post {
+    display: block;
+  }
+  .container nav .tweeterBtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 586px) {
+  .container main .whats-happening .post-icons .second-post-icons button {
+    border-radius: 6px;
+    width: 55%;
+  }
+  .container main .whats-happening .post-icons i {
+    display: inline-block;
+    padding: 0;
+    color: #d24743;
+  }
+} /*# sourceMappingURL=feed-style.css.map */

@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+main .first-part {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  padding-left: 20px !important;
+}
+
+main .first-part i {
+  color: white;
+  font-size: 19px;
+}
+
+main #this-profile {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 18px;
+  padding-left: 30px;
+}
+
+.this-user {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+main .nb-twt {
+  font-size: 13px;
+  color: #808080;
+}
+
+.profile-info .header-img {
+  height: 200px;
+  background-color: #3b3b3b;
+  z-index: 1;
+}
+
+.profile-info .ppic {
+  width: 140px;
+  border-radius: 50px;
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+}
+
+.profile-info .ppic img {
+  margin-left: 20px;
+}
+
+.profile-info .edit-profile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-info .edit-profile button {
+  padding: 4px 17px;
+  border-radius: 23px;
+  border: 0.1em solid #8080803a;
+  background-color: #161515;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.profile-info .edit-profile button:hover {
+  transition: 0.2s;
+  background-color: #808080d0 !important;
+}
+
+.profile-info #info-account {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.profile-info #info-account span {
+  line-height: 20px;
+}
+
+.profile-info #info-account .twitter-account {
+  font-size: 15px;
+}
+
+.profile-info #info-account .join-date {
+  margin-top: 10px;
+}
+
+.profile-info #info-account i {
+  color: #808080;
+}
+
+.profile-info #info-account .date {
+  margin-left: 5px;
+}
+
+.profile-info #info-account .follow-user {
+  margin-top: 10px;
+}
+
+.profile-info #info-account .follow-user a {
+  color: #808080;
+  font-size: 15px;
+}
+
+.profile-info #info-account .follow-user a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.profile-info #info-account .follow-user .nb-follower,
+.nb-following {
+  color: white;
+  font-weight: bold;
+}
+
+.profile-info #info-account .follow-user .nb-follower {
+  margin-left: 10px;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top : 5em;
+}
+
+.profile-nav .profile-filter {
+  width: 100%;
+  padding: 20px 0 15px 0;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(151, 151, 151);
+  border-radius: 0;
+}
+
+.profile-nav .profile-filter:hover {
+  background-color: #1b1b1b;
+}
+
+.profile-nav a[attr="active"] {
+  color: white !important;
+  text-decoration: underline;
+  text-decoration-color: #d24743;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 17px;
+}
+
+#follow-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+#follow-list .follow {
+  width: 100%;
+  padding: 10px 0 15px 0;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(151, 151, 151);
+  border-radius: 0;
+}
+
+#follow-list .follow:hover {
+  background-color: #1b1b1b;
+}
+
+a[attr="active"] {
+  color: white !important;
+  text-decoration: underline;
+  text-decoration-color: #d24743;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 17px;
+}
+
+.content .follow-profile {
+  border-radius: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.content .follow-profile:hover {
+  background-color: #1b1b1b;
+}
+
+.content .follow-profile #prof {
+  display: flex;
+}
+
+.content .follow-profile #follow-pp img {
+  width: 60px !important;
+  border-radius: 50%;
+}
+
+.content .follow-profile .account {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.content .follow-profile .account #bio {
+  font-size: 14px;
+}
+
+.content .follow-profile button {
+  font-size: 15px;
+  font-weight: 650;
+  border: none;
+  color: #151615;
+  border-radius: 23px;
+  padding: 4px 16px;
+  background-color: #fff;
+}
+
+.content .follow-profile button:hover {
+  transition: 0.2s;
+  background-color: #e2e2e2;
+}
+
+.content .follow-profile .following-btn button:hover {
+  transition: 0.2s;
+  color: #d24743 !important;
+  background-color: rgba(210, 72, 67, 0.253) !important;
+}

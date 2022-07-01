@@ -1,0 +1,24 @@
+/* 
+USE : 
+
+@import url('Chirp.css');
+
+*/
+
+@font-face {
+  font-family: "chirp-bold-web";
+  src: url("./woff/chirp-bold-web.woff");
+}
+@font-face {
+  font-family: "chirp-regular-web";
+  src: url("./woff/chirp-regular-web.woff");
+}
+@font-face {
+  font-family: "chirp-heavy-web";
+  src: url("./woff/chirp-heavy-web.woff");
+}
+@font-face {
+  font-family: "chirp-medium-web";
+  src: url("./woff/chirp-medium-web.woff");
+}
+
